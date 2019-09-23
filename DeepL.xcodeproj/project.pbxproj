@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0B3F5723382E500074A088 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BD0B3F5523382E320074A088 /* Script.js */; };
 		BD607F9E2337E47B00C5BD9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD607F9D2337E47B00C5BD9F /* AppDelegate.swift */; };
 		BD607FA02337E47B00C5BD9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD607F9F2337E47B00C5BD9F /* SceneDelegate.swift */; };
 		BD607FA22337E47B00C5BD9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD607FA12337E47B00C5BD9F /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0B3F5523382E320074A088 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		BD607F9A2337E47B00C5BD9F /* DeepL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD607F9D2337E47B00C5BD9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD607F9F2337E47B00C5BD9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		BD607F9C2337E47B00C5BD9F /* DeepL */ = {
 			isa = PBXGroup;
 			children = (
+				BD0B3F5523382E320074A088 /* Script.js */,
 				BD607F9D2337E47B00C5BD9F /* AppDelegate.swift */,
 				BD607F9F2337E47B00C5BD9F /* SceneDelegate.swift */,
 				BD607FA12337E47B00C5BD9F /* ContentView.swift */,
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0B3F5723382E500074A088 /* Script.js in Resources */,
 				BD607FAA2337E47C00C5BD9F /* LaunchScreen.storyboard in Resources */,
 				BD607FA72337E47C00C5BD9F /* Preview Assets.xcassets in Resources */,
 				BD607FA42337E47C00C5BD9F /* Assets.xcassets in Resources */,
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = s3rious.DeepL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = s3rious.DeepL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
